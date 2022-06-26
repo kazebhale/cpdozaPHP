@@ -1,17 +1,17 @@
 <?php
     session_start();
     $_SESSION['identifiant']='back_page';
-    $DB_USER='root';
-    $DB_PASSWORD='';
-    $DB_DNS='mysql:host=localhost;dbname=dbcpdoza';
-
-
+    $DB_USER='nhhuejkaqfqkmu';
+    $DB_PASSWORD='0a46fa83c943391e500fe4cccb46bddb2041781439f7e23062b39429d315ce4c';
+    $DB_DNS='pgsql:host=ec2-44-205-41-76.compute-1.amazonaws.com;port=5432;dbname=d58e6ica4sh50p';
+    
+    
+   
     try{
+
         $PDO=new PDO($DB_DNS,$DB_USER,$DB_PASSWORD);
 
-
-        //if(isset($_POST['submit'])){
-
+        
         $nom = htmlspecialchars($_POST['nom']);
 
         $prenom = htmlspecialchars($_POST['prenom']);
