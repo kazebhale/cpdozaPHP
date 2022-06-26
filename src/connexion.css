@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:wght@100;300&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    display: flex ;
+    flex-direction: column;
+}
+
+.connexion{
+    position:relative;
+    
+}
+
+.espace{
+    height: 80px;
+}
+.formP{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.partie_etudiant{
+    width: 600px;
+    height: 650px;
+    background-color: blueviolet;
+    background-image: url("/src/img/etude.jpg");
+}
+.partie_etudiant input{
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 20px;
+}
+.formDesign{
+    display: flex;
+    justify-content: center;
+}
+
+.partie_etudiant .connecter{
+    background-color: blueviolet;
+
+}
+
+.partie_etudiant .connect {
+    border-bottom: 1px solid blueviolet;
+}
+.partie_parent{
+    width: 600px;
+    height: 650px;
+    background-color: hwb(224 9% 50% / 0.809);
+    /*background-image: url("/src/img/parent.jpg"hwb(219 12% 46% / 0.79));*/
+}
+.partie_parent .connect {
+    border-bottom: 1px solid hwb(224 9% 50% / 0.809);
+}
+
+.partie_parent .connecter {
+    background-color:hwb(224 9% 50% / 0.809);
+}
+
+.partie_parent input{
+    font-family:'Roboto Mono', monospace;;
+    font-size: 20px;
+}
+
+.titre1{
+    font-family: 'Roboto Mono', monospace;;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+.titre1 h2{
+    color: white;
+}
+.lienParent a {
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.titre2{
+    display: flex;
+    justify-content: center;
+}
+
+.titre2 h2{
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:wght@100;300&display=swap');
+
+body{
+	font-family:'Roboto Mono', monospace;
+	display: flex;
+	justify-content: center;
+	background-image: url('src/img/font.webp');
+}
+
+.le_blanc{
+	width: 450px;
+	height: 450px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.le_titre{
+	display:flex;
+	justify-content: center;
+	font-family:'Roboto Mono', monospace;
+	font-size: 50px;
+
+}
+
+.formulaire{
+	display: flex;
+	justify-content: center;
+
+}
+.form{
+	display: flex;
+	flex-direction: column;
+
+}
+.les_infos{
+	font-family:'Roboto Mono', monospace;
+	font-size: large;
+	height: 320px;
+	
+}
+
+.les_infos input{
+	width: 300px;
+	border: none;
+	font-family:'Roboto Mono', monospace;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 1px solid hwb(224 9% 50% / 0.809);
+}
+
+.envoyer{
+	display: flex;
+	justify-content: center;
+}
+
+.envoyer input{
+	width: 280px;
+	height: 40px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: large;
+	background-color:rgb(41, 124, 233);
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
+}
+
+#erreur{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 22px;
+	text-align: center;
+	color: red;
+}
+
+
+@media screen and ( max-width: 1150px) {
+	.image2{
+		display: none;
+	}
+	.partie_etudiant{
+		border-radius: 10px;
+	}
+	.partie_parent{
+		border-radius: 10px;
+	}
+}

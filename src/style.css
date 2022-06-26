@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:wght@100;300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 230px;
+}
+
+nav{
+    width:88%;
+    min-width: 1070px;
+    border-radius: 8px;
+    height: auto;
+    background-color: #424558;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ecole{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.statut{
+    position: relative;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.logo{
+    position: relative;
+    left: 15px;
+}
+.statut button{
+    position:  relative;
+    top: 15px;  
+    /*right: 5px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(52, 52, 55);
+    color :white;
+    cursor: pointer;
+    
+
+}
+
+.statut button:hover{
+    /*top: 15px;  */
+    font-family: 'Roboto Mono', monospace;
+    font-size: 21px;
+    font-weight: 700;
+    border: none;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 104);
+    color :white;
+    cursor: pointer;
+    
+}
+nav >ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav >ul ::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mes_listes{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mes_listes li > a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size:larger;
+}
+nav >ul> li{    
+    float: left;
+    position: relative;
+
+}
+
+nav >ul >li >a{
+    padding: 20px 30px;
+    color: white;
+    
+}
+
+nav >ul >li{
+    float: left;
+    position:relative;
+}
+
+nav li{
+    list-style-type: none;
+
+}
+
+.submenu{
+    display: none;
+}
+
+
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li{
+    border-bottom: 1px solid #ccc;
+    
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    width:auto;
+}
+menu-css{
+    display: flex;
+}
+
+.menu-css:hover > a{
+    display: flex;
+    border-top: 5px solid #1f2133;
+    color: rgb(10, 10, 24);
+    font-weight: 700;
+    width: auto;
+
+}
+
+
+.menu-css .submenu{
+    background-color: rgb(52, 52, 55);
+}
+
+.menu-javascript .submenu{
+    background-color: RGB(250,215,100);
+}
+.menu-css .submenu li:hover{
+    /*background-color: RGB(000,115,200);*/
+    background-color: rgb(10, 10, 24);
+}
+
+.bienvenu{
+    position: relative;
+    top: 80px;
+    width:100%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    width: auto;
+
+
+}
+
+.texte .message-bienvenu{
+   color: #424558;
+   font-family: 'Roboto Mono', monospace;
+   font-size: 4vw;
+   font-weight:900;
+   width: auto;
+}
+/*.message-bienvenu{
+    width: 750px;
+    height: 533px;
+    
+}*/
+.banniere{
+    position: relative;
+    bottom: 130px;  
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteneurAc{
+    width:400px ;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.e-learning{
+    background-color:rgba(61, 70, 80, 0.6) ;
+    display: flex;
+    width: 365px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.e-learning img{
+    opacity: 1;
+    width: 200px;
+    height: 180px;
+}
+.entrer-cour{
+    width: 330px;
+    height: 180px;
+    background-color:rgba(61, 70, 80, 0.6) ;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+
+}
+
+.preinscription{
+    display: flex;
+    width: 330px;
+    height: 180px;
+    background-color:rgba(61, 70, 80, 0.6) ;
+    cursor: pointer;
+    position: relative;
+    right: 15px;
+}
+.preinscription p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+    font-weight: 600;
+
+}
+
+.preinscription p:hover{
+    color: aqua;
+}
+
+.enligne:hover{
+    color: rgb(157, 223, 203);
+
+}
+
+.space1{
+    width: 18px;
+}
+.space2{
+    width: 15px;
+}
+.entrer-cour #titre{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.entrer-cour #titre:hover{
+
+    color: aqua;
+    cursor: pointer;
+
+}
+
+.entrer-cour #dateRentrer{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(248, 29, 29);
+}
+
+.entrer-cour #dateRentrer:hover{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(255, 4, 4);
+}
+
+
+.e-learning #majuscule{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+    font-weight: 900;
+    color: white;
+}
+.e-learning #majuscule:hover{
+
+    color: aqua;
+}
+
+.e-learning #minuscule{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: white;
+}
+.e-learning #minuscule:hover{
+    color: rgba(14, 181, 242, 0.949);
+}
+.espace{
+
+    height: 75px;
+
+}
+.evenement{
+    width: auto;
+    height: 300px;
+    background-color: rgba(2, 12, 17, 0.2);
+    display: flex;
+    justify-content: center;
+
+}
+.extraEvent{
+    width: 500px;
+}
+.actualite{
+    width: 500px;
+}
+.eventAvenir{
+    width:500px
+    
+}
+
+.titre_actua ,.titreAvenir,.titreActualite {
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight:700 ;
+    color: rgb(51, 61, 73);
+    opacity: 1;
+}
+.espace1{
+    width: 50px;
+}
+.titre_actua p{
+    opacity: 1;
+}
+.contenu-event{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+}
+.contenu-event .event-text{
+    font-family:'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 280px;
+}
+.bas{
+    position:relative ;
+    top: 80px;
+    background-color: #424558;
+    width: 100%;
+    height: 200px;
+}
+@media screen and ( max-width: 1070px) {
+    nav{
+        display: none;
+    }
+    .bienvenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 750px;
+    
+    }
+    .texte{
+        display: flex;
+        justify-content: center;
+        width: 550px;
+    
+    }
+    .texte .message-bienvenu{
+       color: #424558;
+       font-family: 'Roboto Mono', monospace;
+       font-size: 4vw;
+       font-weight:700;
+    }
+    .message-bienvenu{
+        width: 600px;
+        height: 403px;
+        
+    }
+    
+    .photoEcole{
+        position: relative;
+        right: 5px;
+    }
+    
+    .photoEcole img{
+        width: 100%;
+        min-width: 50px;
+        min-height: 10px;
+    }
+
+    
+}
+@media screen and (max-width:1120px) {
+    .diapo{
+        display: none;
+    }
+    .banniere{
+        position: relative;
+        bottom: 130px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    .preinscription{
+        position: relative;
+        top: 15px;
+    }
+    .entrer-cour{
+        position: relative;
+        top:30px;
+    }
+    .evenement{
+        position: relative;
+        top: 40px;
+        height: auto;
+        background-color: rgba(2, 12, 17, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+}

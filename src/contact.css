@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:wght@100;300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.tube{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background-color: #424558;
+    justify-content: space-around;
+}
+.admin {
+    display: flex;
+    justify-content: center;
+}
+
+.admin div{
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: white;
+}
+.admin span{
+    position: relative;
+    bottom: 15px;
+    position: relative;
+    top: 4px;
+    font-size: 19px;
+}
+
+#email{
+    position: relative;
+    top: 1px;
+
+}
+.contact{
+    display: flex;
+
+
+}
+
+.image{
+    position: relative;
+    top: 10px;
+}
+
+.contCpDoza{
+    width: 200px;
+    height: 40px; 
+
+}
+.cpdoza{
+    position: relative;
+    top: 10px;
+    /*background-color: #1f2133;*/
+    display: flex;
+    justify-content: center;
+    
+}
+.cpdoza span{
+    position: relative;
+    bottom:10px ;
+    color:#1f2133;
+    
+}
+.cpdoza img:hover{
+    position: relative;
+    /*top: 10px;*/
+    background-color: #dadbe5;
+    /*display: flex;
+    justify-content: center;*/
+
+}
+.cpdoza span:hover{
+    position: relative;
+    /*top: 10px;*/
+    color: #dadbe5;
+    /*display: flex;
+    justify-content: center;*/
+
+}
+.cpdoza a{
+    position: relative;
+    top: 2px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+
+}
