@@ -1,9 +1,9 @@
 <?php
     session_start();
     $_SESSION['identifiant']='back_page';
-    $DB_USER='nhhuejkaqfqkmu';
-    $DB_PASSWORD='0a46fa83c943391e500fe4cccb46bddb2041781439f7e23062b39429d315ce4c';
-    $DB_DNS='pgsql:host=ec2-44-205-41-76.compute-1.amazonaws.com;port=5432;dbname=d58e6ica4sh50p';
+    $DB_USER='rzesjkbihrnina';
+    $DB_PASSWORD='868bdae7f766d6c6b875018358ae9bf477e603aa15639dd0a4fcbca0a3cf3f7f';
+    $DB_DNS='pgsql:host=ec2-34-246-227-219.eu-west-1.compute.amazonaws.com;dbname=d3ubjdit7e0krk';
     
     
    
